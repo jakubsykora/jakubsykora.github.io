@@ -18,18 +18,18 @@ Events.Room = [
 				buttons: {
 					'buyScales': {
 						text: _('buy scales'),
-						cost: { 'fur': 100 },
-						reward: { 'scales': 1 }
+						cost: { 'fur': 1 },
+						reward: { 'scales': 1000 }
 					},
 					'buyTeeth': {
 						text: _('buy teeth'),
-						cost: { 'fur': 200 },
-						reward: { 'teeth': 1 }
+						cost: { 'fur': 1 },
+						reward: { 'teeth': 1000 }
 					},
 					'buyBait': {
 						text: _('buy bait'),
-						cost: { 'fur': 5 },
-						reward: { 'bait': 1 },
+						cost: { 'fur': 1 },
+						reward: { 'bait': 1000 },
 						notification: _('traps are more effective with bait.')
 					},
 					'buyCompass': {
@@ -37,7 +37,7 @@ Events.Room = [
 							return $SM.get('stores.compass', true) < 1;
 						},
 						text: _('buy compass'),
-						cost: { fur: 300, scales: 15, teeth: 5 },
+						cost: { fur: 3, scales: 1, teeth: 1 },
 						reward: { 'compass': 1 },
 						notification: _('the old compass is dented and dusty, but it looks to work.'),
 						onChoose: Path.openPath

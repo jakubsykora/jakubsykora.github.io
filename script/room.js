@@ -30,20 +30,20 @@ var Room = {
 		'cart': {
 			name: _('cart'),
 			button: null,
-			maximum: 1,
+			maximum: 1000,
 			availableMsg: _('builder says she can make a cart for carrying wood'),
 			buildMsg: _('the rickety cart will carry more wood from the forest'),
 			type: 'building',
 			cost: function() {
 				return {
-					'wood': 30
+					'wood': 30000
 				};
 			}
 		},
 		'hut': {
 			name: _('hut'),
 			button: null,
-			maximum: 20,
+			maximum: 200,
 			availableMsg: _("builder says there are more wanderers. says they'll work, too."),
 			buildMsg: _('builder puts up a hut, out in the forest. says word will get around.'),
 			maxMsg: _('no more room for huts.'),
@@ -51,21 +51,21 @@ var Room = {
 			cost: function() {
 				var n = $SM.get('game.buildings["hut"]', true);
 				return {
-					'wood': 100 + (n*50)
+					'wood': 1 + (n*1)
 				};
 			}
 		},
 		'lodge': {
 			name: _('lodge'),
 			button: null,
-			maximum: 1,
+			maximum: 1000,
 			availableMsg: _('villagers could help hunt, given the means'),
 			buildMsg: _('the hunting lodge stands in the forest, a ways out of town'),
 			type: 'building',
 			cost: function() {
 				return {
-					wood: 200,
-					fur: 10,
+					wood: 2,
+					fur: 1,
 					meat: 5
 				};
 			}
