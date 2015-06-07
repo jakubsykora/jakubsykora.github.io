@@ -35,10 +35,10 @@ var Outside = {
 		},
 		'tanner': {
 			name: _('tanner'),
-			delay: 10,
+			delay: 1,
 			stores: {
 				'fur': 5,
-				'leather': 1000
+				'leather': 100
 			}
 		},
 		'charcutier': {
