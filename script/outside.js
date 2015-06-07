@@ -5,31 +5,31 @@ var Outside = {
 	name: _("Outside"),
 	
 	_STORES_OFFSET: 0,
-	_GATHER_DELAY: 60,
-	_TRAPS_DELAY: 90,
+	_GATHER_DELAY: 1,
+	_TRAPS_DELAY: 1,
 	_POP_DELAY: [0.5, 3],
 	
 	_INCOME: {
 		'gatherer': {
 			name: _('gatherer'),
-			delay: 10,
+			delay: 1,
 			stores: {
-				'wood': 1
+				'wood': 1000
 			}
 		},
 		'hunter': {
 			name: _('hunter'),
-			delay: 10,
+			delay: 1,
 			stores: {
-				'fur': 0.5,
-				'meat': 0.5
+				'fur': 5,
+				'meat': 5
 			}
 		},
 		'trapper': {
 			name: _('trapper'),
-			delay: 10,
+			delay: 1,
 			stores: {
-				'meat': -1,
+				'meat': 1,
 				'bait': 1
 			}
 		},
