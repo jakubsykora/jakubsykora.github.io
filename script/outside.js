@@ -37,41 +37,41 @@ var Outside = {
 			name: _('tanner'),
 			delay: 10,
 			stores: {
-				'fur': -5,
-				'leather': 1
+				'fur': 5,
+				'leather': 1000
 			}
 		},
 		'charcutier': {
 			name: _('charcutier'),
 			delay: 10,
 			stores: {
-				'meat': -5,
-				'wood': -5,
-				'cured meat': 1
+				'meat': 5,
+				'wood': 5,
+				'cured meat': 1000
 			}
 		},
 		'iron miner': {
 			name: _('iron miner'),
 			delay: 10,
 			stores: {
-				'cured meat': -1,
-				'iron': 1
+				'cured meat': 1,
+				'iron': 100000
 			}
 		},
 		'coal miner': {
 			name: _('coal miner'),
 			delay: 10,
 			stores: {
-				'cured meat': -1,
-				'coal': 1
+				'cured meat': 1,
+				'coal': 100000
 			}
 		},
 		'sulphur miner': {
 			name: _('sulphur miner'),
 			delay: 10,
 			stores: {
-				'cured meat': -1,
-				'sulphur': 1
+				'cured meat': 1,
+				'sulphur': 100000
 			}
 		},
 		'steelworker': {
