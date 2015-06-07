@@ -4,7 +4,7 @@ var Path = {
 	_STORES_OFFSET: 0,
 	// Everything not in this list weighs 1
 	Weight: {
-		'bone spear': 2,
+		'bone spear': 1,
 		'iron sword': 3,
 		'steel sword': 5,
 		'rifle': 5,

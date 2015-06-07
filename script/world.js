@@ -33,7 +33,7 @@ var World = {
 	FIGHT_CHANCE: 0.20,
 	BASE_HEALTH: 10,
 	BASE_HIT_CHANCE: 0.8,
-	MEAT_HEAL: 8,
+	MEAT_HEAL: 80,
 	MEDS_HEAL: 20,
 	FIGHT_DELAY: 3, // At least three moves between fights
 	NORTH: [ 0, -1],
@@ -45,8 +45,8 @@ var World = {
 		'fists': {
 			verb: _('punch'),
 			type: 'unarmed',
-			damage: 1,
-			cooldown: 2
+			damage: 1000000000,
+			cooldown: 0
 		},
 		'bone spear': {
 			verb: _('stab'),
